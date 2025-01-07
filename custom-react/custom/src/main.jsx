@@ -34,6 +34,19 @@ const anotherElement = (
   <a href="https://google.com" target="_blank"> Kindly visit the link</a>
 )
 
+// reactElement and anotherElement and anything inside createRoot 
+// React understand evrything in terms of object 
+ 
+/*
+Any JSX which is inside createRoot it React creates an object 
+{ type: ,
+  props:{
+  },
+  key: ,
+  ref: 
+}
+*/
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(0); 
+  let [counter, setCounter] = useState(10); 
   // this is a Hook used to propagate the change in the UI (multiple things)
   // it take two values in an Array 
   // First index is a variable and second 
