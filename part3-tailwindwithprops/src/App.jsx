@@ -21,7 +21,7 @@ function App() {
     </h1>
     <Cards channel ='chai' info = {proper} arr = {array} />
     <Cards details = {proper} detArray = {array} />
-    <Card new = {newArray} userName = 'Rohan'/>
+    {/* <Card new = {newArray} userName = 'Rohan'/> */}
 
     {/* For reusablity of component we use props
       here two card are imported but we want to show the different information
